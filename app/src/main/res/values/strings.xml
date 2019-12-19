@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">Capy Taxi Driver</string>
+
+    <!--Google map key-->
+
+    <string name="google_map_key">AIzaSyBj0Ae2P7pCs3bl9_N6IDIIbmYKT2iY_2M</string>
+
+    <!--FontNames-->
+    <string name="centeric">centric.ttf</string>
+    <string name="helvetica">helvetica.ttf</string>
+    <string name="helveticabold">helvetica_bold.ttf</string>
+    <string name="helveticaboldobique">helvetica_boldoblique.ttf</string>
+    <string name="helveticaoblique">helvetica_oblique.ttf</string>
+    <string name="details">Details</string>
+    <string name="title_functional">Functional ViewModel</string>
+    <string name="title_adapters">Adapters</string>
+    <string name="error">ERROR!</string>
+    <string name="hint_search">Search Something</string>
+    <string name="title_two_way_binding">Two Way Binding</string>
+    <string name="title_calculator">Calculator Example</string>
+    <string name="enter_mobile_email">Enter Mobile/Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="dontregister">Don"'t" have an account?</string>
+    <string name="register">Register</string>
+    <string name="uber">Capy Taxi Driver</string>
+    <string name="or">Or</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="reset">Reset</string>
+    <string name="otp">OTP</string>
+    <string name="pleaseenterthenumber">Please enter the verification code we sent to your phone number</string>
+    <string name="pleaseentertheemail">Please enter the verification code we sent to your email</string>
+    <string name="dummynumber">+91 8427444424</string>
+    <string name="dontrecieveotp">Don\'t receive the otp?</string>
+    <string name="resendotp">Resend OTP</string>
+    <string name="done">Done</string>
+    <string name="profile">Profile</string>
+    <string name="pleasesignin">Please sign in</string>
+    <string name="email_addres">Email Address</string>
+    <string name="rating">Ratings</string>
+    <string name="earning">Earning</string>
+    <string name="account">Account</string>
+    <string name="alert">Alerts</string>
+    <string name="star">Star</string>
+    <string name="accepted">Accepted</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="feedback">Feedback</string>
+    <string name="pro_tips">Pro Tips</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum arcu lacus,
+        semper suscipit eros semper ut. Curabitur vitae eros sed est hendrerit elementum iaculis in augue. Fusce
+        ullamcorper hendrerit fermentum. Morbi urna lorem, porttitor sed neque et, posuere ornare nisi. Vivamus id
+        semper mauris. Nulla mollis neque non egestas mattis. Suspendisse id nunc quis lacus elementum imperdiet a a
+        turpis. Curabitur accumsan iaculis dolor vitae venenatis. Mauris pulvinar purus a magna pharetra lobortis. Nulla
+        gravida nibh interdum nunc convallis, non mattis urna vestibulum. Duis varius mauris ut lorem volutpat mollis.
+        Morbi aliquet tristique turpis, eu vestibulum nunc ullamcorper eu. Ut aliquet, purus nec fermentum aliquet, nunc
+        arcu malesuada arcu, nec tincidunt nisl nisl ac lacus.
+    </string>
+    <string name="nodatafound">No Record Found!</string>
+    <string name="five_star_tips">5 star pro tips</string>
+    <string name="five_star_tips_description">Riders and drive partners both have the chance to provide a rating and
+        comments at the end of a trip. this two-way feedback system allow uber to maintain safe and respectful
+        environment for both rider and drive-parteners.
+    </string>
+    <string name="before_a_trip">Before a trip</string>
+    <string name="driving_tips">Driving tips</string>
+    <string name="during_the_trip">During the trip</string>
+    <string name="in_car_experience">In - car experience</string>
+    <string name="after_a_trip">After a trip</string>
+    <string name="edit">Edit</string>
+    <string name="supportandhelp"><![CDATA[Support & help]]></string>
+    <string name="documents">Documents</string>
+    <string name="privacypolicy">Privacy policy</string>
+    <string name="bankandpayments"><![CDATA[Banks & Payments]]></string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="editprofile">Edit Profile</string>
+    <string name="updateprofile">Update Profile</string>
+    <string name="estimated_payouts">Estimated Payout</string>
+    <string name="dummyAmount">246.0</string>
+    <string name="weeklyearning">Weekly Earning</string>
+    <string name="to">to</string>
+    <string name="triphistory">Trip History</string>
+    <string name="lasttrip">Last Trip : ₺</string>
+    <string name="invite">Invite</string>
+    <string name="earn_an_extra">Earn an extra ₺</string>
+    <string name="foreveryfriend">for every friend you refer to drive!</string>
+    <string name="search">Search...</string>
+    <string name="rating_text">Rating</string>
+    <string name="earnings">Earnings</string>
+    <string name="save">Save</string>
+    <string name="totaltrips">Total trips</string>
+    <string name="onlinehours">Online Hours</string>
+    <string name="history">History</string>
+    <string name="total_payment">Total Payment</string>
+    <string name="ridefare">Ride Fare</string>
+    <string name="taxes">Taxes</string>
+    <string name="rounded">Rounded</string>
+    <string name="total_bill">Total bill</string>
+    <string name="view_all">View all</string>
+    <string name="setting">Settings</string>
+    <string name="navigationprovider">Navigation Provider</string>
+    <string name="notification_ring">Notification Ring</string>
+    <string name="driver_shortcut">Driver Shortcut</string>
+    <string name="driver_licence">Driver Licence</string>
+    <string name="expiry_date">Expiry date 2031</string>
+    <string name="turkish_currency_sign">₺</string>
+    <string name="navigation">NAVIGATION</string>
+    <string name="dummy_address">178-178A, Purv Marg, Industrial Area Phase I, Chandigarh, 160002</string>
+    <string name="pickup">Pick up</string>
+    <string name="waitforrider">Wait For Rider</string>
+    <string name="riderhasbeennotified">Rider has been Notified</string>
+    <string name="starttrip">Start Trip</string>
+    <string name="hasbeenpaid">Has been Paid</string>
+    <string name="ratenow">Rate Now</string>
+    <string name="submitrating">Submit Rating</string>
+    <string name="uberclone">Uber Clone</string>
+    <string name="pleaseselectlanguage">Please Select Language</string>
+    <string name="english">English</string>
+    <string name="turkish">Turkish</string>
+
+    <!--Error Response-->
+
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_valid_password">Enter valid password</string>
+    <string name="enter_valid_mobile">Phone number should not be empty or enter a valid phone number.</string>
+    <string name="network_error">No network connection.</string>
+    <string name="errorString">Something went wrong, Please try again.</string>
+    <string name="taptoaccept">Tap to Accept</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="nameshouldnotempty">Please enter your name.</string>
+    <string name="emailshouldnotempty">Please enter a valid email.</string>
+    <string name="enter_your_password">Please enter password</string>
+    <string name="passwordshouldnotempty">Password should be at least 8 characters long.</string>
+    <string name="confirmpasswordshouldmatch">Passwords are not matching.</string>
+    <string name="selectaction">Select Action</string>
+    <string name="selectfromgallery">Select photo from gallery</string>
+    <string name="capturefromcamera">Capture photo from camera</string>
+    <string name="cancel">Cancel</string>
+    <string name="decline">Decline</string>
+    <string name="otpshpouldnotempty">Otp should not be empty.</string>
+    <string name="noneedtocahangenumber">You are already using this number. No need to change.</string>
+    <string name="loginwithemail">Login with Email</string>
+    <string name="loginwithphone">Login with Phone</string>
+    <string name="alreadyhaneanacount">I already have an account.</string>
+    <string name="car_and_number">Clear picture of car and number.</string>
+    <string name="t_zini">T izni</string>
+    <string name="car_licence">Car license</string>
+    <string name="arrived">Arrived</string>
+    <string name="complete_trip">Complete Trip</string>
+    <string name="paid">Paid</string>
+    <string name="skip">Skip</string>
+    <string name="minimumrating">Set minimum rating 1 before submittion.</string>
+    <string name="add_a_comment">Add your comment...</string>
+    <string name="sec">Sec</string>
+    <string name="onlile">Online</string>
+    <string name="offline">Offline</string>
+    <string name="daily_trips">Daily Earning</string>
+    <string name="weekly_trips">Weekly Earning</string>
+    <string name="monthly_trips">Monthly Earning</string>
+    <string name="total_trips">Total Earning</string>
+    <string name="signup">Sign Up</string>
+    <string name="signup_login">SignUp</string>
+    <string name="submit">Submit</string>
+    <string name="vehicle_name">Vehicle Name</string>
+    <string name="vehicle_number">Vehicle No</string>
+    <string name="vehicle_type">Select Vehicle Type</string>
+    <string name="vehicle_model">Vehicle Model</string>
+    <string name="vehicle_manufacturing_name">Vehicle Manufactured Name</string>
+    <string name="vehicle_color">Vehicle Color</string>
+    <string name="vehicle_name_houldnotempty">Vehicle name should not be empty.</string>
+    <string name="vehicle_number_should_not_empty">Vehicle number should not be empty.</string>
+    <string name="vehicle_type_should_not_empty">Vehicle type should not be empty.</string>
+    <string name="vehicle_model_should_not_empty">Vehicle model should not be empty.</string>
+    <string name="vehicle_manufacturing_name__should_not_empty">Vehicle manufacturing name should not be empty.</string>
+    <string name="vehicle_color_should_not_empty">Vehicle color should not be empty.</string>
+    <string name="your_profile_under_review">Your Profile is under review by our support team. Please bear with us
+    </string>
+    <string name="ok_thanks">Ok, Thanks</string>
+    <string name="please_upload_driver_licenve">Please upload your Driving Licence picture.</string>
+    <string name="please_upload_tzini_picture">Please upload your T izni picture.</string>
+    <string name="please_upload_numberPlate_picture_with_car">Please upload a clear picture of your vehicle with plate
+        number.
+    </string>
+    <string name="please_upload_car_licence_picture">Please upload your Car Licence picture.</string>
+    <string name="driver_licence_verified">Document varified(Driving License)</string>
+    <string name="clear_picture_of_your_car">Clear picture of your car and plate number</string>
+    <string name="chat">Chat</string>
+    <string name="optional">optional</string>
+    <string name="message_should_not_empty">Message should not be empty.</string>
+    <string name="otp_sent_to_email">OTP sent to your email please check your email and verify OTP.</string>
+    <string name="number_plate">Number Plate</string>
+    <string name="this_number_is_not_registered">This number is not registred with this app.</string>
+    <string name="faq">FAQ</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="title">Title</string>
+    <string name="enter_your_description">Enter your description...</string>
+    <string name="please_enter_your_title">Please enter you title</string>
+    <string name="please_enter_your_description">Please enter your description</string>
+    <string name="terms_condition">Terms and conditions</string>
+    <string name="canceled_by_user">Ride Cancelled by User.</string>
+</resources>

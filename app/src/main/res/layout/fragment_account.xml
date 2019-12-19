@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/layout_common_toolbar_black"/>
+
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:background="@color/black"
+                    android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/iv_userImage"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        app:srcCompat="@drawable/ic_profile_placeholder"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="@dimen/_3sdp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:background="@drawable/ic_user_placeholder"/>
+
+                <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                        app:fontName="@string/helvetica"
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:singleLine="true"
+                        android:text="John Sumit"
+                        android:padding="@dimen/_2sdp"
+                />
+
+
+                <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                        app:fontName="@string/helveticabold"
+                        android:id="@+id/tv_edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp"
+                        android:singleLine="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:onClick="onClick"
+                        android:text="@string/edit"
+                        android:paddingHorizontal="@dimen/_3sdp"
+                />
+
+
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_profile_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:layoutManager="android.support.v7.widget.LinearLayoutManager">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="@string/helvetica"
+                    android:id="@+id/tv_logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_16sdp"
+                    android:text="@string/logout"
+                    android:onClick="onClick"
+                    android:drawablePadding="@dimen/_8sdp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_marginVertical="@dimen/_15sdp"
+                    android:drawableStart="@drawable/ic_logout_gray"/>
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="match_parent" tools:context=".view.activity.LogInActivity">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:orientation="vertical">
+
+        <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                android:fontFamily="helvetica.ttf"
+                android:text="@string/pleaseselectlanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+
+
+        <RadioGroup
+                android:id="@+id/rg_language"
+                android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+        android:layout_gravity="center"
+                 android:layout_centerInParent="true"
+        android:gravity="center">
+            <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/rb_english"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="@dimen/_10sdp"
+                    android:text="@string/english"
+                    android:layoutDirection="rtl"
+                    android:textSize="@dimen/_14sdp"
+                    android:checked="true"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+            android:buttonTint="@color/texthighlightcolor"/>
+
+            <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/rb_turkish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="@dimen/_10sdp"
+                    android:text="@string/turkish"
+                    android:layoutDirection="rtl"
+                    android:textSize="@dimen/_14sdp"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+                    android:buttonTint="@color/texthighlightcolor"/>
+        </RadioGroup>
+
+
+
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomButton
+                    android:fontFamily="helvetica.ttf"
+                    android:id="@+id/btn_change_language"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:textSize="@dimen/_18sdp"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/ic_next_arrow_fab"
+                    android:padding="@dimen/_8sdp"
+                    android:layout_gravity="end"
+                    android:gravity="end"
+            />
+
+
+    </RelativeLayout>
+</LinearLayout>

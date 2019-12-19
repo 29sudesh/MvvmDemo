@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="@dimen/_5sdp"
+              android:elevation="@dimen/_5sdp"
+              android:layout_margin="@dimen/_3sdp"
+              android:orientation="vertical">
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:background="@color/graylight"/>
+
+    <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_document_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_140sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/document_bitmap"
+    />
+
+    <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+            app:fontName="@string/helveticabold"
+            android:id="@+id/tv_document_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textColor="@color/edittextline"
+            android:textSize="@dimen/_18sdp"
+            android:text="@string/driver_licence"
+            android:singleLine="true"/>
+
+    <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+            app:fontName="@string/helvetica"
+            android:id="@+id/tv_document_expiry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textColor="@color/edittextline"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textSize="@dimen/_12sdp"
+            android:visibility="gone"
+            android:text="@string/expiry_date"
+            android:singleLine="true"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:background="@color/graylight"/>
+
+</LinearLayout>

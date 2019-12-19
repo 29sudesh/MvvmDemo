@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/layout_common_toolbar"/>
+
+
+    <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+            android:id="@+id/tv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_13sdp"
+            android:layout_gravity="center_horizontal"/>
+    <android.support.v7.widget.AppCompatRatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_33sdp"
+            android:id="@+id/ratingBar"
+            android:theme="@style/CustomRatingBar"
+            android:layout_gravity="center_horizontal"
+            android:numStars="5"
+            android:rating="1"
+            android:isIndicator="true"
+            />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_2sdp"
+                  android:layout_marginHorizontal="@dimen/_10sdp"
+                  android:padding="@dimen/_2sdp"
+                  android:orientation="horizontal">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:layout_gravity="center"
+                      android:gravity="center"
+                      android:orientation="vertical">
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_11sdp"
+                    android:text="@string/rating_text"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:id="@+id/tv_rating_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_22sdp"
+                    android:text=""
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <View android:layout_width="@dimen/_1sdp"
+              android:layout_height="@dimen/_20sdp"
+              android:layout_gravity="center_vertical"
+              android:background="@color/edittextline"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:layout_gravity="center"
+                      android:gravity="center"
+                      android:orientation="vertical">
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_11sdp"
+                    android:text="@string/accepted"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:id="@+id/tv_accepted_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_22sdp"
+                    android:text=""
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <View android:layout_width="@dimen/_1sdp"
+              android:layout_height="@dimen/_20sdp"
+              android:layout_gravity="center_vertical"
+              android:background="@color/edittextline"/>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:layout_gravity="center"
+                      android:gravity="center"
+                      android:orientation="vertical">
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_11sdp"
+                    android:text="@string/cancelled"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:id="@+id/tv_cancelled_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_22sdp"
+                    android:text=""
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@color/white"
+          >
+        <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/black"
+                app:tabTextColor="@color/black"
+                app:tabIndicatorColor="@color/texthighlightcolor"
+                app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+                app:tabIndicatorHeight="2dp"
+                app:tabGravity="fill"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+
+
+</LinearLayout>

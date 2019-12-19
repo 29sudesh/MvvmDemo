@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_37sdp"
+        android:id="@+id/rl_common"
+>
+    <ImageView
+            android:id="@+id/iv_back_common"
+            android:layout_width="@dimen/_37sdp"
+            android:layout_height="@dimen/_37sdp"
+            app:srcCompat="@drawable/ic_home_black"
+            android:layout_alignParentStart="true"
+            android:onClick="onClick"
+            android:padding="@dimen/_10sdp"
+    />
+    <ImageView
+            android:id="@+id/iv_end_common"
+            android:layout_width="@dimen/_37sdp"
+            android:layout_height="@dimen/_37sdp"
+            app:srcCompat="@drawable/ic_home_black"
+            android:layout_alignParentEnd="true"
+            android:onClick="onClick"
+            android:visibility="gone"
+            android:padding="@dimen/_10sdp"
+    />
+    <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+            android:fontFamily="helvetica.ttf"
+            android:id="@+id/tv_title_common"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@color/black"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:layout_marginHorizontal="@dimen/_50sdp"
+    />
+    <View android:layout_width="match_parent"
+          android:layout_height="@dimen/_2sdp"
+          android:background="@color/bottom_shadow"
+          android:layout_alignParentBottom="true"
+          android:visibility="gone"
+          android:layout_marginTop="@dimen/_5sdp"
+          android:elevation="@dimen/_2sdp"/>
+</RelativeLayout>

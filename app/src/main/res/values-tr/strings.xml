@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Capy Taxi Driver</string>
+
+    <!--Google map key-->
+    <string name="google_map_key">AIzaSyBj0Ae2P7pCs3bl9_N6IDIIbmYKT2iY_2M</string>
+    <!--FontNames-->
+    <string name="centeric">centric.ttf</string>
+    <string name="helvetica">helvetica.ttf</string>
+    <string name="helveticabold">helvetica_bold.ttf</string>
+    <string name="helveticaboldobique">helvetica_boldoblique.ttf</string>
+    <string name="helveticaoblique">helvetica_oblique.ttf</string>
+
+    <string name="details">ayrıntılar</string>
+    <string name="title_functional">İşlevsel GörünümModel</string>
+    <string name="title_adapters">Adaptörleri</string>
+    <string name="error">HATA!</string>
+    <string name="hint_search">Bir şey arayın</string>
+    <string name="title_two_way_binding">İki yönlü ciltleme</string>
+    <string name="title_calculator">Hesap Makinesi Örneği</string>
+    <string name="enter_mobile_email">Cep Telefonu / E-posta Girin</string>
+    <string name="password">Parola</string>
+    <string name="forgot_password">Parolanızı mı unuttunuz</string>
+    <string name="login">Oturum aç</string>
+    <string name="dontregister">Hesabınız yok mu? </string>
+    <string name="register"> Kayıt olmak</string>
+    <string name="uber">Capy Taxi Driver</string>
+    <string name="or">veya</string>
+    <string name="enter_email">E-posta Girin</string>
+    <string name="phone_number">Telefon numarası</string>
+    <string name="reset">Reset</string>
+    <string name="otp">OTP</string>
+    <string name="pleaseenterthenumber">Lütfen telefon numaranıza gönderdiğimiz doğrulama kodunu girin</string>
+    <string name="pleaseentertheemail">Lütfen e-postanıza gönderdiğimiz doğrulama kodunu girin</string>
+    <string name="dummynumber">+91 8427444424</string>
+    <string name="dontrecieveotp">otp almıyor musunuz?</string>
+    <string name="resendotp">OTP"'"yi tekrar gönderin</string>
+    <string name="done">tamam</string>
+    <string name="profile">Profil</string>
+    <string name="pleasesignin">Lütfen giriş yapın</string>
+    <string name="email_addres">Email adresi</string>
+    <string name="rating">Değerlendirme</string>
+    <string name="earning">Kazanç</string>
+    <string name="account">hesap</string>
+    <string name="alert">Uyarılar</string>
+    <string name="star">Star</string>
+    <string name="accepted">Kabul edilmiş</string>
+    <string name="cancelled">İptal edildi</string>
+    <string name="feedback">geri bildirim</string>
+    <string name="pro_tips">profesyonel ipuçları</string>
+    <string name="dummy_text">Lorem ipsum dolor amet sitect, adipiscing elit komplo şefi. Nullam bibendum arcu lacus,
+                semper suscipit eros semper ut. Curabitur vitae, augue de sed est hendrerit elementum iaculis eros\'u eziyor. Admin
+                ullamcorper hendrerit fermentumu. Morbi urna lorem, porttitor sed neque et, posnere süslü nisi. Vivamus kimliği
+                Semper Mauris. Nulla mollis, egestas olmayan matisleri oluşturur. Suspendisse id nunc quis lacus elementum imperdiet bir
+                turpis. Curabitur accumsan iaculis dolor vitae venenatis. Mauris pulvinar purus bir magna pharetra lobortis. nulla
+                gravida nibh interdum nunc convallis, non mattis urna vestibulum. Duis varius mauris ut lorem volutpat mollis.
+                Morbi aliquet tristique turpis, eu vestibulum nunc ullamcorper eu. Ut aliquet, purus nec fermentum aliquet, nunc
+                arcu malesuada arcu, nec tincidunt nisl nisl ac lacus.
+    </string>
+    <string name="nodatafound">Kayıt Bulunamadı!</string>
+    <string name="five_star_tips">5 yıldızlı profesyonel ipuçları</string>
+    <string name="five_star_tips_description">Hem sürücüler hem de sürücü ortakları, bir derecelendirme sağlama şansına ve
+                Gezinin sonunda yorumlar. bu iki yönlü geri bildirim sistemi, uber\'in güvenli ve saygılı olmasını sağlar.
+                Hem sürücü hem de sürücü parçası için çevre.
+    </string>
+    <string name="before_a_trip">seyahatten önce</string>
+    <string name="driving_tips">Sürüş ipuçları</string>
+    <string name="during_the_trip">Gezi sırasında</string>
+    <string name="in_car_experience">Araç içi deneyim</string>
+    <string name="after_a_trip">Seyahatten sonra</string>
+    <string name="edit">Düzenle</string>
+    <string name="supportandhelp"><![CDATA[Destek ve yardım]]></string>
+    <string name="documents">evraklar</string>
+    <string name="privacypolicy">Gizlilik Politikası</string>
+    <string name="bankandpayments"><![CDATA[Bankalar ve ödemeler]]></string>
+    <string name="settings">Ayarlar</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="editprofile">Profili Düzenle</string>
+    <string name="updateprofile">Profili Güncelle</string>
+    <string name="estimated_payouts">Tahmini ödemeler</string>
+    <string name="dummyAmount">246.0</string>
+    <string name="weeklyearning">Haftalık kazanç</string>
+    <string name="to">için</string>
+    <string name="triphistory">Seyahat Geçmişi</string>
+    <string name="lasttrip">Son gezi : ₺</string>
+    <string name="invite">Davet et</string>
+    <string name="earn_an_extra">Ekstra para kazanın ₺</string>
+    <string name="foreveryfriend">sürdüğün her arkadaşın için!</string>
+    <string name="search">Arama...</string>
+    <string name="rating_text">Değerlendirme</string>
+    <string name="earnings">Kazanç</string>
+    <string name="save">Kayıt etmek</string>
+    <string name="totaltrips">Toplam Seyahat</string>
+    <string name="onlinehours">Çevrimiçi Saatler</string>
+    <string name="history">Tarihçe</string>
+    <string name="total_payment">Tarihçe</string>
+    <string name="ridefare">Yolculuk Ücreti</string>
+    <string name="taxes">Vergiler</string>
+    <string name="rounded">Yuvarlak</string>
+    <string name="total_bill">Toplam Fatura</string>
+    <string name="view_all">Hepsini gör</string>
+    <string name="setting">Ayarlar</string>
+    <string name="navigationprovider">Navigasyon Sağlayıcısı</string>
+    <string name="notification_ring">Bildirim Halkası</string>
+    <string name="driver_shortcut">Sürücü Kısayolu</string>
+    <string name="driver_licence">sürücü ehliyeti</string>
+    <string name="expiry_date">Son kullanma tarihi 2031</string>
+    <string name="turkish_currency_sign">₺</string>
+    <string name="navigation">SEYİR</string>
+    <string name="dummy_address">178-178A, Purv Marg, Industrial Area Phase I, Chandigarh, 160002</string>
+    <string name="pickup">Almak</string>
+    <string name="waitforrider">Rider için bekleyin</string>
+    <string name="riderhasbeennotified">Rider\'e Haber verildi</string>
+    <string name="starttrip">Yolculuğa Başla</string>
+    <string name="hasbeenpaid">Ödendi</string>
+    <string name="ratenow">Şimdi oyla</string>
+    <string name="submitrating">Puanı Gönder</string>
+    <string name="uberclone">Capy Taxi Driver</string>
+    <string name="pleaseselectlanguage">Lütfen Dil Seçiniz</string>
+    <string name="english">English</string>
+    <string name="turkish">Turkish</string>
+
+    <!--Error Response-->
+
+    <string name="enter_mobile_number">Cep telefonu numarasını girin</string>
+    <string name="enter_password">Şifre girin</string>
+    <string name="enter_valid_password">Geçerli bir şifre girin</string>
+    <string name="enter_valid_mobile">Telefon numarası boş olmamalı veya geçerli bir telefon numarası girmemelidir.</string>
+    <string name="network_error">Ağ bağlantısı yok.</string>
+    <string name="errorString">Bir şeyler ters gitti lütfen tekrar deneyin.</string>
+    <string name="taptoaccept">Kabul etmek için hafifçe vurun</string>
+    <string name="first_name">İsim</string>
+    <string name="last_name">Soyadı</string>
+    <string name="current_password">Şimdiki Şifre</string>
+    <string name="new_password">Yeni Şifre</string>
+    <string name="confirm_password">Şifreyi Onayla</string>
+    <string name="email">E-posta</string>
+    <string name="nameshouldnotempty">Lütfen adınızı giriniz.</string>
+    <string name="emailshouldnotempty">Lütfen geçerli bir e-posta adresi girin.</string>
+    <string name="enter_your_password">Lütfen şifre giriniz</string>
+    <string name="passwordshouldnotempty">Şifre en az 8 karakter olmalı.</string>
+    <string name="confirmpasswordshouldmatch">Şifreler eşleşmiyor</string>
+    <string name="selectaction">Eylemi seç</string>
+    <string name="selectfromgallery">Galeriden fotoğraf seç</string>
+    <string name="capturefromcamera">Kameradan fotoğraf çekme</string>
+    <string name="cancel">İptal etmek</string>
+    <string name="decline">düşüş</string>
+    <string name="otpshpouldnotempty">Otp boş olmamalıdır.</string>
+    <string name="noneedtocahangenumber">Bu numarayı zaten kullanıyorsunuz. Değişmene gerek yok.</string>
+    <string name="loginwithemail">Email ile giriş yap</string>
+    <string name="loginwithphone">Telefon ile giriş yap</string>
+    <string name="alreadyhaneanacount">Zaten bir hesabım var.</string>
+    <string name="car_and_number">arabanızın ve plaka numarasının fotoğrafı.</string>
+    <string name="t_zini">T izni</string>
+    <string name="car_licence">araba lisansı</string>
+    <string name="arrived">geldi</string>
+    <string name="complete_trip">Komple Yolculuk</string>
+    <string name="paid">Ücretli</string>
+    <string name="skip">atlamak</string>
+    <string name="minimumrating">Gönderilmeden önce minimum puanı 1 olarak ayarlayın.</string>
+    <string name="add_a_comment" tools:ignore="TypographyEllipsis">Yorumunu ekle...</string>
+    <string name="sec">Sec</string>
+    <string name="onlile">İnternet üzerinden</string>
+    <string name="offline">Çevrimdışı</string>
+    <string name="daily_trips">Günlük Kazanç</string>
+    <string name="weekly_trips">Haftalık Kazanç</string>
+    <string name="monthly_trips">Aylık Kazanç</string>
+    <string name="total_trips">Toplam Kazanç</string>
+    <string name="signup">Kaydol</string>
+    <string name="signup_login">Kaydol</string>
+    <string name="submit">Gönder</string>
+    <string name="vehicle_name">Araç adı</string>
+    <string name="vehicle_number">Araç No</string>
+    <string name="vehicle_type">Araç Tipini Seç</string>
+    <string name="vehicle_model">Araç modeli</string>
+    <string name="vehicle_manufacturing_name">Üretilen Araç Adı</string>
+    <string name="vehicle_color">Araç renk</string>
+    <string name="vehicle_name_houldnotempty">Araç ismi boş bırakılmamalıdır.</string>
+    <string name="vehicle_number_should_not_empty">Araba sayısı boş bırakılmamalıdır.</string>
+    <string name="vehicle_type_should_not_empty">Araç tipi boş bırakılmamalıdır.</string>
+    <string name="vehicle_model_should_not_empty">Araç modeli boş bırakılmamalıdır</string>
+    <string name="vehicle_manufacturing_name__should_not_empty">Araç üretimi boş bırakılmamalıdır </string>
+    <string name="vehicle_color_should_not_empty">Araç rengi boş bırakılmamalıdır</string>
+    <string name="your_profile_under_review">profiliniz, destek ekibimizin tarafından inceleniyor. Bizimle kalın.</string>
+    <string name="ok_thanks">Tamam teşekkürler</string>
+    <string name="please_upload_driver_licenve">lütfen, sürüş ehliyet resmini yükleyiniz.</string>
+    <string name="please_upload_tzini_picture"> lütfen, "T izni" resmini yükleyiniz.</string>
+    <string name="please_upload_numberPlate_picture_with_car">lütfen, aracınızın net resmini plaka numarasıyla yükleyiniz.</string>
+    <string name="please_upload_car_licence_picture">lütfen, aracın ruhsat resmini yükleyiniz.</string>
+    <string name="driver_licence_verified">Belge değiştirildi (Ehliyet)</string>
+    <string name="clear_picture_of_your_car">arabanızın resmi ve plaka numarası</string>
+    <string name="chat">Sohbet</string>
+    <string name="optional">zorunlu değil</string>
+    <string name="message_should_not_empty">Mesaj boş olmamalıdır.</string>
+    <string name="otp_sent_to_email">E-postanıza gönderilen OTP lütfen e-postanızı kontrol edin ve OTP’yi doğrulayın.</string>
+    <string name="number_plate">Sayı Plakası</string>
+    <string name="this_number_is_not_registered">Bu numara bu uygulamayla kaydedilmemiş.</string>
+    <string name="faq">SSS</string>
+    <string name="contact_us">Bizimle iletişime geçin</string>
+    <string name="about_us">Hakkımızda</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="title">Başlık</string>
+    <string name="enter_your_description">Açıklamanızı girin ...</string>
+    <string name="please_enter_your_title">Lütfen başlığınızı girin</string>
+    <string name="please_enter_your_description">Lütfen açıklamanızı girin</string>
+    <string name="terms_condition">Şartlar ve koşullar</string>
+    <string name="canceled_by_user">Bu yolculuk yolcu tarafından iptal edildi.</string>
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/black"
+              android:layout_gravity="center"
+              android:gravity="center"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:custom="http://schemas.android.com/tools"
+              android:orientation="vertical">
+    <RelativeLayout
+            android:id="@+id/rl_top"
+            android:layout_width="match_parent"
+                    android:layout_height="@dimen/_240sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:background="@color/black"
+  >
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+    >
+            <!--loading map in container-->
+            <fragment
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="@dimen/_215sdp"
+                    android:layout_height="@dimen/_215sdp"
+                    android:layout_centerInParent="true"
+
+
+            />
+
+
+
+
+        <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/_220sdp"
+                        android:layout_height="@dimen/_220sdp"
+                android:layout_centerInParent="true"
+                        android:background="@drawable/combined_shape">
+
+        </android.support.v7.widget.AppCompatImageView>
+
+        <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="@dimen/_248sdp"
+                android:layout_height="@dimen/_248sdp"
+                android:indeterminate="false"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/circular_progress_bar"
+                android:background="@drawable/circle_shape"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:max="15"
+                android:progress="0" />
+
+    </RelativeLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:paddingVertical="@dimen/_5sdp"
+            android:layout_height="wrap_content">
+
+        <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/tv_remaining_time"
+                android:text="15 Sec"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_19sdp"
+                app:fontName="@string/helvetica"
+                android:padding="@dimen/_2sdp"
+                android:paddingVertical="@dimen/_1sdp"
+                android:gravity="center"/>
+
+        <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                android:id="@+id/tv_user_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/dummy_address"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:textColor="@color/edittextline"
+                android:maxLines="3"
+                android:padding="@dimen/_2sdp"
+                app:fontName="@string/helvetica"
+                android:paddingVertical="@dimen/_3sdp"
+                android:gravity="center"/>
+
+        <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/ratingBar_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:rating="5"
+                android:isIndicator="true"
+                android:paddingVertical="@dimen/_4sdp"
+                android:theme="@style/CustomRatingBar"
+                android:numStars="5"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomButton
+                app:fontName="@string/helvetica"
+                android:id="@+id/tv_accept"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+                android:text="@string/taptoaccept"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_10sdp"/>
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomButton
+                    app:fontName="@string/helvetica"
+                    android:id="@+id/tv_reject"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="@string/decline"
+                    android:textAllCaps="false"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

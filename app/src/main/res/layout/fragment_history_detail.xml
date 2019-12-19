@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fontName="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/layout_common_toolbar"/>
+
+    <fragment
+            android:id="@+id/maphistory"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"/>
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+
+
+
+        <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                app:fontName="@string/helvetica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/estimated_payouts"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+        />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomEditText
+                    app:fontName="@string/helvetica"
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/blackcircle_background"
+                    android:text="@string/turkish_currency_sign"
+                    android:textColor="@color/white"
+                    android:gravity="center"/>
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="@string/helvetica"
+                    android:id="@+id/tv_estimated_payment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_20sdp"
+                    android:textColor="@color/black"
+                    android:text=""
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+            />
+        </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                        app:fontName="helvetica.ttf"
+                        android:id="@+id/tv_source_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:text="08:00AM"
+                        android:paddingVertical="@dimen/_2sdp"
+                        android:layout_marginStart="@dimen/_3sdp"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:drawableEnd="@drawable/ic_green_dot_small"
+                        android:layout_gravity="start|center"
+                        android:gravity="start|center"
+                        android:textColor="@color/edittextline"
+                        android:singleLine="true"/>
+
+                <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                        app:fontName="helvetica.ttf"
+                        android:id="@+id/tv_source"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:text=""
+                        android:paddingVertical="@dimen/_2sdp"
+                        android:layout_gravity="start|center"
+                        android:gravity="start|center"
+                        android:maxLines="3"
+                        android:textColor="@color/black"
+                        android:singleLine="false"/>
+
+
+
+
+
+
+
+            </LinearLayout>
+        <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/_3sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_gravity="center"
+                app:tint="@color/green"
+                android:visibility="gone"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_vertical_line_gray"
+                android:paddingVertical="@dimen/_2sdp"
+        />
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:id="@+id/tv_destination_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="10:00Am"
+                    android:paddingVertical="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:drawableEnd="@drawable/ic_red_dot_small"
+                    android:textColor="@color/edittextline"
+                    android:singleLine="true"/>
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:id="@+id/tv_destination"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:text=""
+                    android:paddingVertical="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_gravity="start|center"
+                    android:maxLines="3"
+                    android:gravity="start|center"
+                    android:textColor="@color/black"
+                    android:singleLine="false"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="@dimen/_10sdp"
+                      android:layout_marginHorizontal="@dimen/_10sdp"
+                      android:paddingVertical="@dimen/_3sdp"
+                      android:orientation="horizontal">
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="@string/total_payment"
+                    android:layout_weight="1"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="@dimen/_2sdp"
+                      android:layout_marginHorizontal="@dimen/_10sdp"
+                      android:paddingVertical="@dimen/_3sdp"
+                      android:orientation="horizontal">
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="@string/ridefare"
+                    android:layout_weight="1"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:id="@+id/tv_ride_fare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:text=""
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:drawableTint="@color/black"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="@dimen/_2sdp"
+                      android:layout_marginHorizontal="@dimen/_10sdp"
+                      android:paddingVertical="@dimen/_3sdp"
+                      android:orientation="horizontal">
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="@string/taxes"
+                    android:layout_weight="1"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:id="@+id/tv_taxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:text=""
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:drawableTint="@color/black"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="@dimen/_2sdp"
+                      android:layout_marginHorizontal="@dimen/_10sdp"
+                      android:paddingVertical="@dimen/_3sdp"
+                      android:orientation="horizontal">
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="@string/rounded"
+                    android:layout_weight="1"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:id="@+id/tv_rounded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:text=""
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="@dimen/_2sdp"
+                      android:layout_marginHorizontal="@dimen/_10sdp"
+                      android:paddingVertical="@dimen/_3sdp"
+                      android:orientation="horizontal">
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="@string/total_bill"
+                    android:layout_weight="1"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+
+            <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                    app:fontName="helvetica.ttf"
+                    android:id="@+id/tv_total_bill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:text=""
+                    android:layout_gravity="end|center"
+                    android:gravity="end|center"
+                    android:drawableTint="@color/black"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+
+        </LinearLayout>
+
+
+        <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                app:fontName="helvetica.ttf"
+                android:id="@+id/tv_vehicle_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:text=""
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:layout_gravity="end|center_vertical"
+                android:gravity="end|center"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/ic_car_gray"
+                android:singleLine="true"/>
+
+
+        <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                app:fontName="helvetica.ttf"
+                android:id="@+id/tv_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:text=""
+                android:paddingVertical="@dimen/_10sdp"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:layout_gravity="end|center_vertical"
+                android:gravity="end|center"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/ic_distance_gray_light"
+                android:singleLine="true"/>
+
+
+        <com.sb.ubergodriver.CommonUtils.CustomTextUtils.CustomTextView
+                app:fontName="helvetica.ttf"
+                android:id="@+id/tv_travel_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:text=""
+                android:paddingVertical="@dimen/_10sdp"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:layout_gravity="end|center_vertical"
+                android:gravity="end|center"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/ic_watch_gray"
+                android:singleLine="true"/>
+
+    </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
